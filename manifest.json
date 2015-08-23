@@ -1,0 +1,12 @@
+{
+  "name": "Sledge",
+  "version": "1.0",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*/pull/*"],
+      "js": ["jquery-2.1.4.min.js", "content_script.js"]
+    }
+  ],
+  "manifest_version": 2
+}

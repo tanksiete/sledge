@@ -1,0 +1,35 @@
+#sledge-file-browser {
+  position: fixed;
+  left: 10px;
+  bottom: 10px;
+  width: 200px;
+  height: 300px;
+
+  background-color: #E0E0E0;
+
+  border-radius: 3px;
+}
+
+#sledge-file-browser ul {
+  list-style: none;
+
+  padding: 2px;
+}
+
+#sledge-file-browser .sledge-menu-item {
+  padding: 3px;
+  margin: 2px 0px;
+  cursor: pointer;
+
+  font-weight: bolder;
+}
+
+#sledge-file-browser .sledge-menu-item.selected {
+  background-color: #808080;
+  color: #F8F8F8;
+}
+
+#sledge-file-browser .sledge-menu-item:hover {
+  background-color: #F8F8F8;
+  color: #000000;
+}
